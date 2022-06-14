@@ -32,5 +32,5 @@ Use `deployUpg.js` to deploy the MFTERC20Upg token smart contract
 
 ## Audit-Scope
 Solidity files that need auditing
-|--|--|--|
-[`MFTERC20.sol`](./contracts/MFTERC20.sol) | Non Upgradeable MFTERC20 token contract is to be deployed on BSC chain. |
+|--|
+[`MFTERC20.sol`](./contracts/MFTERC20.sol) -  Non Upgradeable MFTERC20 token contract is to be deployed on BSC chain. |
