@@ -46,8 +46,6 @@ describe("MFTERC20 Token contract", function () {
 
     // We can interact with the contract by calling `mftToken.method()`
     await mftToken.deployed();
-
-    await mftToken.initialize();
   });
 
   // You can nest describe calls to create subsections.

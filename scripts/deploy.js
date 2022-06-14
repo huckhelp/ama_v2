@@ -10,14 +10,16 @@ async function main(){
     const bal=await deployer.getBalance();
     console.log('bal: '+bal);
 
+    const owner = deployer.address;
+
     // deploy MFT Token
     MFT=await ethers.getContractFactory('MFTERC20');
-    mftToken = await upgrades.deployProxy(MFT, [], { initializer: 'initialize' });
-    await mftToken.deployed();
-
+    mftToken = await MFT.deploy();
     console.log(`const mftToken = "${mftToken.address}"`);
-    
 
+    console.log("transfer ownership");
+    await mftToken.transferOwnership(owner);
+    
 }
 
 main().then(()=>process.exit(0))
