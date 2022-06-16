@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/jaspreetsingh/Desktop/projects/MrwebFinance/contracts/MFTERC20.sol": {
-      "lastModificationDate": 1655110964288,
-      "contentHash": "85a17d9d24b65dc5e14abd989d36cf7d",
+      "lastModificationDate": 1655353644244,
+      "contentHash": "864dde29837a5e67f650e4a28832cc4a",
       "sourceName": "contracts/MFTERC20.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -34,7 +34,6 @@
         "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol",
         "@openzeppelin/contracts/token/ERC20/extensions/ERC20Snapshot.sol",
         "@openzeppelin/contracts/access/Ownable.sol",
-        "@openzeppelin/contracts/security/Pausable.sol",
         "./TokensRecoverable.sol"
       ],
       "versionPragmas": [
@@ -580,8 +579,8 @@
       ]
     },
     "/Users/jaspreetsingh/Desktop/projects/MrwebFinance/contracts/TokensRecoverable.sol": {
-      "lastModificationDate": 1655110921552,
-      "contentHash": "01b494a308bc70b0dedc31bfddaaffbb",
+      "lastModificationDate": 1655353574171,
+      "contentHash": "320fe3894723eb6eb074479c5ada9790",
       "sourceName": "contracts/TokensRecoverable.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -1378,8 +1377,8 @@
       ]
     },
     "/Users/jaspreetsingh/Desktop/projects/MrwebFinance/contracts/TokensRecoverableUpg.sol": {
-      "lastModificationDate": 1655110848315,
-      "contentHash": "4bd60279e81a6f1acdab7b022e89faa9",
+      "lastModificationDate": 1655353569854,
+      "contentHash": "64c6eeca6f64409af358ebe08acfb66c",
       "sourceName": "contracts/TokensRecoverableUpg.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -1416,6 +1415,49 @@
       ],
       "artifacts": [
         "TokensRecoverableUpg"
+      ]
+    },
+    "/Users/jaspreetsingh/Desktop/projects/MrwebFinance/contracts/MFTERC20Pausable.sol": {
+      "lastModificationDate": 1655353517027,
+      "contentHash": "831ded1c3c8a18ba34a8f2c78448de7b",
+      "sourceName": "contracts/MFTERC20Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Snapshot.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/security/Pausable.sol",
+        "./TokensRecoverable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.2"
+      ],
+      "artifacts": [
+        "MFTERC20Pausable"
       ]
     }
   }

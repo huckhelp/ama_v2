@@ -11,7 +11,6 @@ contract TokensRecoverable is Ownable {
     using SafeERC20 for IERC20;
 
     function recoverTokens(IERC20 token) public onlyOwner {
-        require(canRecoverTokens(token), "Cannot recover this token");
         token.safeTransfer(msg.sender, token.balanceOf(address(this)));
     }
 
@@ -37,12 +36,4 @@ contract TokensRecoverable is Ownable {
         token.safeTransferFrom(address(this), msg.sender, tokenId);
     }
 
-    function canRecoverTokens(IERC20 token)
-        internal
-        view
-        virtual
-        returns (bool)
-    {
-        return address(token) != address(this);
-    }
 }

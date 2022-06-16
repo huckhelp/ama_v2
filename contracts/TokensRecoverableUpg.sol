@@ -11,7 +11,6 @@ contract TokensRecoverableUpg is OwnableUpgradeable {
     using SafeERC20Upgradeable for IERC20Upgradeable;
 
     function recoverTokens(IERC20Upgradeable token) public onlyOwner {
-        require(canRecoverTokens(token), "Cannot recover this token");
         token.safeTransfer(msg.sender, token.balanceOf(address(this)));
     }
 
@@ -40,12 +39,4 @@ contract TokensRecoverableUpg is OwnableUpgradeable {
         token.safeTransferFrom(address(this), msg.sender, tokenId);
     }
 
-    function canRecoverTokens(IERC20Upgradeable token)
-        internal
-        view
-        virtual
-        returns (bool)
-    {
-        return address(token) != address(this);
-    }
 }
