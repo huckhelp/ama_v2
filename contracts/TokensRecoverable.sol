@@ -14,7 +14,7 @@ contract TokensRecoverable is Ownable {
         token.safeTransfer(msg.sender, token.balanceOf(address(this)));
     }
 
-    function recoverETH(uint256 amount) public onlyOwner {
+    function recoverBNB(uint256 amount) public onlyOwner {
         payable(msg.sender).transfer(amount);
     }
 
