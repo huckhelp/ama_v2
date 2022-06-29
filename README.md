@@ -15,7 +15,7 @@ Sections below describes the following :
 
 | Contract Name | File and Location | Description |
 |--|--| --|
-|MFTERC20| [`MFTERC20.sol`](./contracts/MFTERC20.sol) | ERC20 token with preminted tokens, burn, pause and snapshot functionalities. Cannot be upgraded and no functionality can be changed once deployed.|
+|MFTERC20| [`MFTERC20.sol`](./contracts/MFTERC20.sol) | ERC20 token with preminted tokens, burn and snapshot functionalities. Cannot be upgraded and no functionality can be changed once deployed.|
 |MFTERC20Upg| [`MFTERC20Upg.sol`](./contracts/MFTERC20Upg.sol) | Upgradeable ERC20 token with preminted tokens, burn, pause and snapshot functionalities. |
 
 ## Deployment
