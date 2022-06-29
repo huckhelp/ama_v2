@@ -2,7 +2,7 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/jaspreetsingh/Desktop/projects/MrwebFinance/contracts/MFTERC20.sol": {
-      "lastModificationDate": 1655353644244,
+      "lastModificationDate": 1656483261330,
       "contentHash": "864dde29837a5e67f650e4a28832cc4a",
       "sourceName": "contracts/MFTERC20.sol",
       "solcConfig": {
@@ -579,8 +579,8 @@
       ]
     },
     "/Users/jaspreetsingh/Desktop/projects/MrwebFinance/contracts/TokensRecoverable.sol": {
-      "lastModificationDate": 1655353574171,
-      "contentHash": "320fe3894723eb6eb074479c5ada9790",
+      "lastModificationDate": 1656483230709,
+      "contentHash": "df98c91e1fc81c71b5c796d4a22eb0f7",
       "sourceName": "contracts/TokensRecoverable.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -608,9 +608,7 @@
       },
       "imports": [
         "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
-        "@openzeppelin/contracts/access/Ownable.sol",
-        "@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
-        "@openzeppelin/contracts/token/ERC721/IERC721.sol"
+        "@openzeppelin/contracts/access/Ownable.sol"
       ],
       "versionPragmas": [
         "0.8.2"
@@ -1377,8 +1375,8 @@
       ]
     },
     "/Users/jaspreetsingh/Desktop/projects/MrwebFinance/contracts/TokensRecoverableUpg.sol": {
-      "lastModificationDate": 1655353569854,
-      "contentHash": "64c6eeca6f64409af358ebe08acfb66c",
+      "lastModificationDate": 1656483234656,
+      "contentHash": "81c7451c2953086215c115f02246d362",
       "sourceName": "contracts/TokensRecoverableUpg.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -1406,9 +1404,7 @@
       },
       "imports": [
         "@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155Upgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol"
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol"
       ],
       "versionPragmas": [
         "0.8.2"
