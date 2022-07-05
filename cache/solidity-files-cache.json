@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/jaspreetsingh/Desktop/projects/MrwebFinance/contracts/MFTERC20.sol": {
-      "lastModificationDate": 1657038635309,
-      "contentHash": "ae25bec3bb78e49420203e631ced5cf4",
+      "lastModificationDate": 1657039211675,
+      "contentHash": "d769d1fb89065253acb2691ad3c6e19e",
       "sourceName": "contracts/MFTERC20.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -163,7 +163,7 @@
       ]
     },
     "/Users/jaspreetsingh/Desktop/projects/MrwebFinance/contracts/Owned.sol": {
-      "lastModificationDate": 1657038359329,
+      "lastModificationDate": 1657038799183,
       "contentHash": "a7dda0afb6008d4c2fcdfde23a6c3b22",
       "sourceName": "contracts/Owned.sol",
       "solcConfig": {

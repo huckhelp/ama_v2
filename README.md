@@ -25,7 +25,7 @@ Use `deployUpg.js` to deploy the MFTERC20Upg token smart contract
 
 ## Links
 
-- [MFTERC20 (non upgradeable) Testnet Token Contract -  0x313F15c8019a3d523B636eC9Aea1899001971531 ](https://testnet.bscscan.com/address/0x313F15c8019a3d523B636eC9Aea1899001971531)
+- [MFTERC20 (non upgradeable) Testnet Token Contract -  0xA0655dd91fD74Ffb69eF82C983f3BB9c6b9f6c0A ](https://testnet.bscscan.com/address/0xA0655dd91fD74Ffb69eF82C983f3BB9c6b9f6c0A)
 - [ABI of Token](./artifacts/contracts/MFTERC20.sol/MFTERC20.json)
 - [Openzeppelin Defender](https://defender.openzeppelin.com/)
 - [MFTERC20 Upgradeable Testnet Token Contract - 0x2B9244F33D42033B9309a7C394738D9A70B7eb5c](https://testnet.bscscan.com/address/0x2b9244f33d42033b9309a7c394738d9a70b7eb5c)

@@ -23,9 +23,9 @@ contract MFTERC20 is
      */
     constructor()
         ERC20("Mrweb Finance", "AMA")
-        Owned(0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266)
+        Owned(0x397B73151D8Ee4D4B66741E49744ed1BDAB95fe9)
     {
-        _mint(0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266, 100000000 ether);
+        _mint(0x397B73151D8Ee4D4B66741E49744ed1BDAB95fe9, 100000000 ether);
     }
 
     /**
