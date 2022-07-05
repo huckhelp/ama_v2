@@ -4,13 +4,14 @@ function sleep (time) {
 }
 async function main(){
 
-    const [deployer]=await ethers.getSigners();
+    const [deployer, deployer2]=await ethers.getSigners();
     console.log('deploy by acct: '+deployer.address);
     
     const bal=await deployer.getBalance();
     console.log('bal: '+bal);
 
-    const owner = deployer.address;
+    const owner = deployer2.address;
+    console.log('owner to set: '+owner);
 
     // deploy MFT Token
     MFT=await ethers.getContractFactory('MFTERC20');
@@ -18,7 +19,9 @@ async function main(){
     console.log(`const mftToken = "${mftToken.address}"`);
 
     console.log("transfer ownership");
-    await mftToken.transferOwnership(owner);
+    await mftToken.nominateNewOwner(owner);
+
+    console.log("New nominatedOwner: "+ await mftToken.nominatedOwner());
     
 }
 
